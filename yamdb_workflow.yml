@@ -50,7 +50,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: igoryarets/yamdb:v.30.12.2021
+          tags: igoryarets/yamdb:latest
 
   deploy:
     runs-on: ubuntu-latest
