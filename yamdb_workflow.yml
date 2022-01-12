@@ -46,7 +46,7 @@ jobs:
           uses: docker/build-push-action@v2
           with:
             push: true
-            tags: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.PROJECT_NAME }}
+            tags: igoryarets/yamdb:v.30.12.2021
 
   deploy:
     runs-on: ubuntu-latest
